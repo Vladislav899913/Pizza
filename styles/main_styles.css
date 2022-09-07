@@ -177,3 +177,26 @@ body {
   border: 3px solid #ffcf29;
   font-weight: 700;
 }
+
+@media (min-width: 1519px) {
+  .container {
+    max-width: 1430px;
+    padding: 0 15px;
+  }
+
+  .intro_inner_right_suptitle {
+    font-size: 70px;
+  }
+
+  .intro_inner_right_title {
+    font-size: 200px;
+  }
+
+  .intro_inner_right_subtitle {
+    font-size: 40px;
+  }
+
+  .intro_inner_right_text {
+    font-size: 18px;
+  }
+}
