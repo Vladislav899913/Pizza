@@ -1,0 +1,63 @@
+body {
+  font-family: Roboto;
+}
+
+.intro {
+  background: url(/images/menu/menu_bg.jpg) center no-repeat;
+  background-size: cover;
+}
+
+.menu_intro_inner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+
+.menu_intro_inner_item {
+  width: 23%;
+  height: 450px;
+  border: 2px solid #ffcf29;
+  border-radius: 20px;
+  padding: 30px 20px;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 500;
+  letter-spacing: 0.34px;
+  background-color: #fff;
+}
+
+.item_photo {
+  max-width: 320px;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.item_img {
+  width: 100%;
+  height: 100%;
+}
+
+.item_title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+
+.item_price {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.btn_price {
+  width: 150px;
+  height: 36px;
+  border-radius: 15px;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.34px;
+  text-transform: uppercase;
+}

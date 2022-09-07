@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  line-height: 1;
+  font-family: Poppins;
+  color: #272d2e;
+}
+
+/* INTRO */
+.intro {
+  background: url(/images/main/main_bg_clear.jpg) center no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1630px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* HEADER */
+.header {
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_left {
+  width: 50%;
+}
+
+.nav_left_logo {
+  width: 30%;
+}
+
+.nav_right {
+  display: flex;
+  justify-content: space-between;
+  min-height: 141px;
+  align-items: center;
+  width: 30%;
+}
+
+.nav_right_item {
+  padding: 15px 15px;
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.34px;
+  color: #272d2e;
+  transition: background 0.3s;
+  text-align: right;
+}
+
+.nav_right_item:hover {
+  background-color: #db2527;
+  color: #fff;
+  border-bottom: none;
+  border-radius: 5%;
+}
+
+.nav_link_active {
+  color: #db2527;
+  font-weight: 500;
+  border-bottom: 3px solid #db2527;
+}
+
+.nav_right_item:hover {
+}
+
+.nav_item_link {
+}
+
+/* INTRO_INNER */
+
+.intro_inner {
+  display: flex;
+}
+
+.intro_inner_left {
+  width: 50%;
+}
+
+.intro_inner_right {
+  width: 50%;
+  text-align: right;
+  user-select: none;
+}
+
+.intro_inner_right_suptitle {
+  font-size: 106px;
+  font-weight: bold;
+  line-height: 1.5;
+  letter-spacing: -2.62px;
+  color: #d50306;
+}
+
+.intro_inner_right_title {
+  font-size: 300px;
+  font-weight: bold;
+  letter-spacing: -7.59px;
+}
+
+.intro_inner_right_subtitle {
+  font-size: 48px;
+  font-weight: 300;
+  letter-spacing: 0.67px;
+  margin-bottom: 20px;
+}
+
+.intro_inner_right_text {
+  max-width: 700px;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin-bottom: 30px;
+  float: right;
+}
+
+.btn {
+  background-color: #ffcf29;
+  font-weight: 500;
+  letter-spacing: -0.67px;
+  transition: background 0.3s;
+}
+
+.btn_order {
+  width: 250px;
+  height: 60px;
+  border-radius: 53px;
+  font-size: 20px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: transparent;
+  border: 3px solid #ffcf29;
+  font-weight: 700;
+}
