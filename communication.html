@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Pizza</title>
     <link rel="stylesheet" href="/styles/main_styles.css" />
+    <link rel="stylesheet" href="/styles/communication_styles.css" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic"
       rel="stylesheet"
@@ -33,7 +34,7 @@
               <ul>
                 <li>
                   <a href="/index.html">
-                    <div class="nav_right_item nav_link_active">Главная</div>
+                    <div class="nav_right_item">Главная</div>
                   </a>
                 </li>
               </ul>
@@ -44,7 +45,7 @@
               </li>
               <li>
                 <a href="/communication.html">
-                  <div class="nav_right_item">Связаться</div>
+                  <div class="nav_right_item nav_link_active">Связаться</div>
                 </a>
               </li>
               <li>
@@ -58,26 +59,35 @@
       </header>
       <main>
         <div class="container">
-          <div class="intro_inner">
-            <div class="intro_inner_left"></div>
-            <div class="intro_inner_right">
-              <div class="intro_inner_right_suptitle">
-                <h2>Delicious</h2>
+          <div class="communication">
+            <div class="communication_inner">
+              <div class="title title-communication">
+                <h1>Связаться с нами!</h1>
               </div>
-              <div class="intro_inner_right_title"><h1>Pizza</h1></div>
-              <div class="intro_inner_right_subtitle">
-                <h3>Better Ingredients. Better Pizza</h3>
-              </div>
-              <div class="intro_inner_right_text">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam quis no.
-                </p>
-              </div>
-              <a href="/menu.html">
-                <button type="button" class="btn btn_order">Order Now</button>
-              </a>
+              <input
+                type="text"
+                placeholder="First Name*"
+                class="communication_inner_left_input"
+              />
+              <input
+                type="text"
+                placeholder="Last Name*"
+                class="communication_inner_left_input"
+              />
+              <input
+                type="email"
+                placeholder="Email Subject*"
+                class="communication_inner_left_input"
+              />
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Write something here..."
+                class="communication_inner_left_input communication_text_area"
+              ></textarea>
+              <button class="btn btn-communication">Отправить</button>
             </div>
           </div>
         </div>

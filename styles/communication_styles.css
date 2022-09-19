@@ -1,0 +1,87 @@
+/* Communication */
+.communication {
+  min-height: 550px;
+}
+.communication_inner {
+  max-height: 658px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  float: right;
+}
+
+.title-communication {
+  font-size: 50px;
+  font-weight: bold;
+  margin: 25px 0;
+  text-align: center;
+}
+.communication_inner_left_input {
+  margin-bottom: 24px;
+  width: 100%;
+  height: 59px;
+  border: 3px solid #232323;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 15px 30px;
+
+  font-family: Lato;
+  font-size: 21px;
+  line-height: 0.81;
+  letter-spacing: normal;
+  color: #232323;
+}
+
+.communication_text_area {
+  height: 200px;
+  resize: none;
+}
+
+::placeholder {
+  font-family: Lato;
+  font-size: 21px;
+  line-height: 0.81;
+  letter-spacing: normal;
+  color: #6d6d6d;
+}
+
+.btn-communication {
+  width: 200px;
+  height: 50px;
+  border-radius: 15px;
+  font-family: Roboto;
+  font-size: 14px;
+  letter-spacing: 0.34px;
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+
+@media (max-width: 1024px) {
+  .communication {
+    padding: 50px 0;
+    min-height: auto;
+  }
+  .title-communication {
+    font-size: 65px;
+  }
+}
+@media (max-width: 768px) {
+  .title-communication {
+    font-size: 55px;
+  }
+  .communication_inner_left {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .communication_inner_right {
+    display: none;
+  }
+}
+@media (max-width: 425px) {
+  .title-communication {
+    font-size: 45px;
+  }
+  .communication_inner_left {
+    width: 100%;
+  }
+}
