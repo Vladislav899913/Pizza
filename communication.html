@@ -49,8 +49,8 @@
                 </a>
               </li>
               <li>
-                <a href="/cart.html">
-                  <div class="nav_right_item">Корзина</div>
+                <a href="/reviews.html">
+                  <div class="nav_right_item">Отзывы</div>
                 </a>
               </li>
             </div>
@@ -60,35 +60,37 @@
       <main>
         <div class="container">
           <div class="communication">
-            <div class="communication_inner">
-              <div class="title title-communication">
-                <h1>Связаться с нами!</h1>
+            <form>
+              <div class="communication_inner">
+                <div class="title title-communication">
+                  <h1>Связаться с нами!</h1>
+                </div>
+                <input
+                  type="text"
+                  placeholder="Фамилия*"
+                  class="communication_inner_left_input"
+                />
+                <input
+                  type="text"
+                  placeholder="Имя*"
+                  class="communication_inner_left_input"
+                />
+                <input
+                  type="email"
+                  placeholder="Email*"
+                  class="communication_inner_left_input"
+                />
+                <textarea
+                  name=""
+                  id=""
+                  cols="30"
+                  rows="10"
+                  placeholder="Текст сообщения..."
+                  class="communication_inner_left_input communication_text_area"
+                ></textarea>
+                <button class="btn btn-communication">Отправить</button>
               </div>
-              <input
-                type="text"
-                placeholder="First Name*"
-                class="communication_inner_left_input"
-              />
-              <input
-                type="text"
-                placeholder="Last Name*"
-                class="communication_inner_left_input"
-              />
-              <input
-                type="email"
-                placeholder="Email Subject*"
-                class="communication_inner_left_input"
-              />
-              <textarea
-                name=""
-                id=""
-                cols="30"
-                rows="10"
-                placeholder="Write something here..."
-                class="communication_inner_left_input communication_text_area"
-              ></textarea>
-              <button class="btn btn-communication">Отправить</button>
-            </div>
+            </form>
           </div>
         </div>
       </main>

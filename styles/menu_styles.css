@@ -1,6 +1,10 @@
-/* body {
+html,
+body {
+  height: 100%;
+  line-height: 1;
   font-family: Roboto;
-} */
+  color: #272d2e;
+}
 
 .intro {
   background: url(/images/menu/menu_bg.jpg) center no-repeat;
